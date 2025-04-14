@@ -185,7 +185,7 @@ void SensorTask(void *pvParameters) {
       }
     }
 
-    vTaskDelay(pdMS_TO_TICKS(20000));
+    vTaskDelay(pdMS_TO_TICKS(10000));
   }
 }
 
